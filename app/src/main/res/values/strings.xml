@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Consumo Vehicular</string>
+    <string name="title_login">Bienvenido de nuevo</string>
+    <string name="subtitle_login">Ingresa con tu cuenta para administrar el consumo de combustible.</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_google">Continuar con Google</string>
+    <string name="action_go_to_register">¿No tienes cuenta? Regístrate</string>
+    <string name="content_description_logo">Logotipo de la aplicación</string>
+    <string name="error_google_sign_in">No se pudo completar el inicio con Google.</string>
+    <string name="error_generic">Ocurrió un error inesperado.</string>
+    <string name="error_authentication">Verifica tus credenciales e inténtalo nuevamente.</string>
+    <string name="error_email_empty">Ingresa un correo electrónico.</string>
+    <string name="error_email_invalid">Ingresa un correo válido.</string>
+    <string name="error_password_empty">Ingresa una contraseña.</string>
+    <string name="error_password_length">La contraseña debe tener al menos 6 caracteres.</string>
+    <string name="error_password_mismatch">Las contraseñas no coinciden.</string>
+    <string name="error_name_empty">Ingresa tu nombre.</string>
+    <string name="title_register">Crear cuenta</string>
+    <string name="label_register_subtitle">Completa tus datos para crear una cuenta nueva.</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="action_create_account">Crear cuenta</string>
+    <string name="message_register_success">Cuenta creada correctamente.</string>
+    <string name="menu_vehicles">Mis Vehículos</string>
+    <string name="menu_records">Registros</string>
+    <string name="menu_summary">Resumen</string>
+    <string name="menu_logout">Cerrar Sesión</string>
+    <string name="message_logout_confirmation">¿Deseas cerrar la sesión actual?</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="placeholder_vehicles">Aquí podrás gestionar tus vehículos.</string>
+    <string name="placeholder_records">Aquí registrarás tus cargas de combustible.</string>
+    <string name="placeholder_summary">Aquí verás tus gráficos de consumo.</string>
+    <string name="default_web_client_id">PASTE_WEB_CLIENT_ID_AQUI</string>
+</resources>
