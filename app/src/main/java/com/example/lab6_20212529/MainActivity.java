@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth firebaseAuth;
     private GoogleSignInClient googleSignInClient;
+    private MaterialToolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        MaterialToolbar toolbar = findViewById(R.id.topAppBar);
+        toolbar = findViewById(R.id.topAppBar);
         setSupportActionBar(toolbar);
 
         BottomNavigationView navigationBarView = findViewById(R.id.bottomNavigation);
@@ -62,13 +63,13 @@ public class MainActivity extends AppCompatActivity {
         Fragment fragment;
         if (itemId == R.id.menu_vehicles) {
             fragment = new VehiclesFragment();
-            setTitle(R.string.menu_vehicles);
+            toolbar.setTitle(R.string.menu_vehicles);
         } else if (itemId == R.id.menu_records) {
             fragment = new RecordsFragment();
-            setTitle(R.string.menu_records);
+            toolbar.setTitle(R.string.menu_records);
         } else {
             fragment = new SummaryFragment();
-            setTitle(R.string.menu_summary);
+            toolbar.setTitle(R.string.menu_summary);
         }
 
         getSupportFragmentManager()
